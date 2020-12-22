@@ -46,7 +46,7 @@ int main() {
 
 void welcome() {
 	printf("--------------------------------------------------------------------------------\n");
-	printf("|                                    执行                                      |\n");
+	printf("|                                    \033[;31m执行                                      |\n");
 	printf("|                                                                              |\n");
 	printf("|                             1--------历史文件                                |\n");
 	printf("|                             2--------新的文件                                |\n");
@@ -54,7 +54,6 @@ void welcome() {
 	printf("|                             4--------程序帮助                                |\n");
 	printf("|                             0--------退出程序                                |\n");
 	printf("|  请选择:\t\t\t\t\t\t\t\t       |\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
-	printf("\033[;32mhello world\033[5m");
 }
 
 void history() {
