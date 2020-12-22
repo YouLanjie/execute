@@ -14,4 +14,5 @@ touch $HOME/桌面/执行.desktop
 echo -e "[Desktop Entry]\nName=执行程序\nExec=/usr/execute/execute\nTerminal=true\nType=Application\nIcon=terminal\n" >> $HOME/桌面/执行.desktop
 chmod +x $HOME/桌面/执行.desktop
 cp $HOME/桌面/执行.desktop $HOME/.local/share/applications/
+sudo ln -s /usr/execute/execute /usr/bin/execute
 echo "Done... 完成"
